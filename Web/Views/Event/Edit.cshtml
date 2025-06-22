@@ -1,0 +1,49 @@
+﻿@model Web.Models.Event
+
+@{
+    ViewData["Title"] = "Edit Event";
+}
+
+<div class="card shadow-sm mt-4">
+    <div class="card-header bg-warning text-dark">
+        <h3 class="mb-0">✏️ Edit Event</h3>
+    </div>
+    <div class="card-body">
+        <form asp-action="Edit" method="post">
+            @Html.AntiForgeryToken()
+            <input type="hidden" asp-for="EventId" />
+
+            <div class="mb-3">
+                <label asp-for="EventName" class="form-label fw-semibold"></label>
+                <input asp-for="EventName" class="form-control" required />
+                <span asp-validation-for="EventName" class="text-danger small"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="EventDate" class="form-label fw-semibold"></label>
+                <input asp-for="EventDate" type="date" class="form-control" required />
+                <span asp-validation-for="EventDate" class="text-danger small"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label fw-semibold"></label>
+                <textarea asp-for="Description" class="form-control" rows="3" placeholder="Optional description..."></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="VenueId" class="form-label fw-semibold">Venue</label>
+                <select asp-for="VenueId" class="form-select" asp-items="ViewBag.Venues" required></select>
+                <span asp-validation-for="VenueId" class="text-danger small"></span>
+            </div>
+
+            <div class="text-end">
+                <button type="submit" class="btn btn-success me-2">💾 Save</button>
+                <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

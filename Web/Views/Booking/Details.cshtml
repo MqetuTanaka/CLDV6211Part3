@@ -1,0 +1,28 @@
+﻿@model Web.Models.Booking
+
+@{
+    ViewData["Title"] = "Booking Details";
+}
+
+<div class="card shadow-sm mt-4">
+    <div class="card-header bg-info text-white">
+        <h3 class="mb-0">📄 Booking Details</h3>
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Booking Date</dt>
+            <dd class="col-sm-9">@Model.BookingDate.ToShortDateString()</dd>
+
+            <dt class="col-sm-3">Event</dt>
+            <dd class="col-sm-9">@Model.Event?.EventName</dd>
+
+            <dt class="col-sm-3">Venue</dt>
+            <dd class="col-sm-9">@Model.Venue?.VenueName</dd>
+        </dl>
+    </div>
+    <div class="card-footer text-end">
+        <a asp-action="Edit" asp-route-id="@Model.BookingId" class="btn btn-warning me-2">✏️ Edit</a>
+        <a asp-action="Delete" asp-route-id="@Model.BookingId" class="btn btn-danger me-2">🗑️ Delete</a>
+        <a asp-action="Index" class="btn btn-outline-secondary">⬅️ Back to List</a>
+    </div>
+</div>

@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Web.Models.Event>
+
+@{
+    ViewData["Title"] = "Events";
+}
+
+<div class="card shadow-sm mt-4">
+    <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
+        <h3 class="mb-0">📅 Events</h3>
+        <a asp-action="Create" class="btn btn-success">➕ Create New Event</a>
+    </div>
+
+    <div class="card-body p-0">
+        <table class="table table-striped table-hover text-center align-middle m-0">
+            <thead class="table-primary">
+                <tr>
+                    <th>Event Name</th>
+                    <th>Date</th>
+                    <th>Description</th>
+                    <th>Venue</th>
+                    <th>Venue Image</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var eventItem in Model)
+                {
+                    <tr>
+                        <td>@eventItem.EventName</td>
+                        <td>@eventItem.EventDate.ToShortDateString()</td>
+                        <td>@eventItem.Description</td>
+                        <td>@(eventItem.Venue != null ? eventItem.Venue.VenueName : "No Venue")</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(eventItem.Venue?.ImageUrl))
+                            {
+                                <img src="@eventItem.Venue.ImageUrl" alt="Venue Image"
+                                     class="rounded shadow-sm"
+                                     style="width: 60px; height: 60px; object-fit: cover;" />
+                            }
+                            else
+                            {
+                                <span class="text-muted">No image</span>
+                            }
+                        </td>
+                        <td>
+                            <a asp-action="Details" asp-route-id="@eventItem.EventId"
+                               class="btn btn-outline-info btn-sm me-1">👁️</a>
+                            <a asp-action="Edit" asp-route-id="@eventItem.EventId"
+                               class="btn btn-outline-warning btn-sm me-1">✏️</a>
+                            <a asp-action="Delete" asp-route-id="@eventItem.EventId"
+                               class="btn btn-outline-danger btn-sm">🗑️</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

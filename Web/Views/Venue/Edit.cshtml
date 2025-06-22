@@ -1,0 +1,48 @@
+﻿@model Web.Models.Venue
+
+@{
+    ViewData["Title"] = "Edit Venue";
+}
+
+<h2 class="mb-4">Edit Venue</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data" class="p-4 border rounded shadow-sm bg-light">
+    <input type="hidden" asp-for="VenueId" />
+
+    <div class="mb-3">
+        <label asp-for="VenueName" class="form-label fw-semibold"></label>
+        <input asp-for="VenueName" class="form-control" placeholder="Enter venue name" />
+        <span asp-validation-for="VenueName" class="text-danger small"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Location" class="form-label fw-semibold"></label>
+        <input asp-for="Location" class="form-control" placeholder="City or suburb" />
+        <span asp-validation-for="Location" class="text-danger small"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Capacity" class="form-label fw-semibold"></label>
+        <input asp-for="Capacity" type="number" class="form-control" min="0" placeholder="e.g., 150" />
+        <span asp-validation-for="Capacity" class="text-danger small"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ImageUrl" class="form-label fw-semibold"></label>
+        <input asp-for="ImageUrl" class="form-control" placeholder="URL of existing image (optional)" />
+        <span asp-validation-for="ImageUrl" class="text-danger small"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ImageFile" class="form-label fw-semibold">Upload New Image</label>
+        <input asp-for="ImageFile" type="file" class="form-control" />
+        <span asp-validation-for="ImageFile" class="text-danger small"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success px-4">💾 Save Changes</button>
+    <a asp-action="Index" class="btn btn-outline-secondary ms-2">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

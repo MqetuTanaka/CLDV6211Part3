@@ -1,0 +1,52 @@
+﻿@model Web.Models.Venue
+
+@{
+    ViewData["Title"] = "Delete Venue";
+}
+
+@if (ViewBag.DeleteError != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @ViewBag.DeleteError
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="card shadow-sm mt-4">
+    <div class="card-header bg-danger text-white">
+        <h3 class="mb-0">🚨 Confirm Deletion</h3>
+    </div>
+    <div class="card-body">
+        <p class="fs-5 mb-4">Are you sure you want to permanently delete this venue?</p>
+
+        <dl class="row">
+            <dt class="col-sm-3">Venue Name</dt>
+            <dd class="col-sm-9">@Model.VenueName</dd>
+
+            <dt class="col-sm-3">Location</dt>
+            <dd class="col-sm-9">@Model.Location</dd>
+
+            <dt class="col-sm-3">Capacity</dt>
+            <dd class="col-sm-9">@Model.Capacity</dd>
+
+            <dt class="col-sm-3">Image</dt>
+            <dd class="col-sm-9">
+                @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                {
+                    <img src="@Model.ImageUrl" alt="Venue Image" class="img-thumbnail" style="max-width: 250px;" />
+                }
+                else
+                {
+                    <span class="text-muted">No image available</span>
+                }
+            </dd>
+        </dl>
+    </div>
+    <div class="card-footer text-end">
+        <form asp-action="Delete" method="post" class="d-inline">
+            <input type="hidden" asp-for="VenueId" />
+            <button type="submit" class="btn btn-danger me-2">🗑️ Delete</button>
+        </form>
+        <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+    </div>
+</div>

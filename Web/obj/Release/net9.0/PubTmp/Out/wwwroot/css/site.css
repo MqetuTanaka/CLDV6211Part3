@@ -1,0 +1,104 @@
+body {
+    background-color: #0c1123;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+    background-color: #0c1123 !important;
+    border-bottom: 1px solid #1f2945;
+}
+
+.navbar-brand, .nav-link, .text-dark {
+    color: #ffffff !important;
+}
+
+.navbar .btn-info {
+    background-color: #458eff;
+    border: none;
+    color: white;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    color: white;
+}
+
+.booking-btn {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #458eff;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+    .booking-btn:hover {
+        background-color: #336ecc;
+    }
+
+.services-menu {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+
+.card-dark {
+    background-color: #1a1f38;
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+    .card-dark h3 {
+        color: #ffffff;
+    }
+
+    .card-dark p {
+        color: #cccccc;
+        margin-bottom: 1rem;
+    }
+
+    .card-dark .btn {
+        background-color: #333c5f;
+        color: #ffffff;
+        border: none;
+    }
+
+        .card-dark .btn:hover {
+            background-color: #455175;
+        }
+
+footer {
+    background-color: #0c1123;
+    border-top: 1px solid #1f2945;
+    color: #aaa;
+}
+
+    footer a {
+        color: #aaa;
+        text-decoration: none;
+    }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+.vertical-container {
+    position: absolute;
+    right: 0;
+    top: 30%;
+    transform: translateY(-50%);
+    text-align: right;
+    color: rgba(255, 255, 255, 0.05);
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 0.9;
+}

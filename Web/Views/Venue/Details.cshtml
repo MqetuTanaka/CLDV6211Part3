@@ -1,0 +1,39 @@
+﻿@model Web.Models.Venue
+
+@{
+    ViewData["Title"] = "Venue Details";
+}
+
+<div class="card shadow-sm mt-4">
+    <div class="card-header bg-dark text-white">
+        <h3 class="mb-0">Venue Details</h3>
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Name:</dt>
+            <dd class="col-sm-9">@Model.VenueName</dd>
+
+            <dt class="col-sm-3">Location:</dt>
+            <dd class="col-sm-9">@Model.Location</dd>
+
+            <dt class="col-sm-3">Capacity:</dt>
+            <dd class="col-sm-9">@Model.Capacity</dd>
+
+            <dt class="col-sm-3">Image:</dt>
+            <dd class="col-sm-9">
+                @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                {
+                    <img src="@Model.ImageUrl" alt="Venue Image" class="img-thumbnail" style="max-width: 250px;" />
+                }
+                else
+                {
+                    <span class="text-muted">No image available</span>
+                }
+            </dd>
+        </dl>
+    </div>
+    <div class="card-footer text-end">
+        <a asp-action="Edit" asp-route-id="@Model.VenueId" class="btn btn-warning me-2">✏️ Edit</a>
+        <a asp-action="Delete" asp-route-id="@Model.VenueId" class="btn btn-danger">🗑️ Delete</a>
+    </div>
+</div>

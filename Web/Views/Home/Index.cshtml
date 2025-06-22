@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Digital Design Conference";
+}
+
+<div class="main-content text-center">
+    <h1 class="hero-title">EasyEvent</h1>
+    <a asp-controller="Booking" asp-action="Create" class="btn btn-primary booking-btn">Book Event</a>
+</div>
+
+<div class="services-menu d-flex justify-content-center gap-4 flex-wrap mt-4">
+    <div class="service-block card-dark">
+        <h3>Venue</h3>
+        <p>Create a Venue</p>
+        <a asp-controller="Venue" asp-action="Create" class="btn btn-outline-light">Create Venue</a>
+    </div>
+    <div class="service-block card-dark">
+        <h3>Events</h3>
+        <p>Create an Event</p>
+        <a asp-controller="Event" asp-action="Create" class="btn btn-outline-light">Create Event</a>
+    </div>
+    <div class="service-block card-dark">
+        <h3>Booking</h3>
+        <p>Create a Booking</p>
+        <a asp-controller="Booking" asp-action="Create" class="btn btn-outline-light">Create Booking</a>
+    </div>
+</div>
+
+<div class="vertical-container">
+    <div class="vertical-text">Easy</div>
+    <div class="vertical-text">Event</div>
+</div>
