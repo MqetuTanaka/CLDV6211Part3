@@ -1,0 +1,84 @@
+﻿@model cloud1.Models.Product
+
+@{
+    ViewData["Title"] = "Edit Product";
+}
+
+<h1>Edit Product</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit" method="post" enctype="multipart/form-data" id="editForm">
+            <input type="hidden" asp-for="RowKey" />
+            <input type="hidden" asp-for="PartitionKey" />
+            <input type="hidden" asp-for="ETag" />
+            <input type="hidden" asp-for="Timestamp" />
+            <input type="hidden" asp-for="ImageUrl" />
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="ProductName" class="control-label"></label>
+                <input asp-for="ProductName" class="form-control" required />
+                <span asp-validation-for="ProductName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea asp-for="Description" class="form-control"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" id="Price" name="Price"
+                       class="form-control"
+                       type="number" step="0.01" min="0.01"
+                       placeholder="29.99" required />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="StockAvailable" class="control-label"></label>
+                <input asp-for="StockAvailable" class="form-control" type="number" min="0" required />
+                <span asp-validation-for="StockAvailable" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label">Upload New Image (Optional)</label>
+                <input type="file" name="imageFile" id="imageFile" class="form-control" accept="image/*" />
+            </div>
+
+            @if (!string.IsNullOrEmpty(Model.ImageUrl))
+            {
+                <div class="form-group mt-2">
+                    <label>Current Image</label><br />
+                    <img src="@Model.ImageUrl" alt="Product Image" style="max-width:200px; height:auto;" />
+                </div>
+            }
+
+            <div class="form-group mt-3">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        document.getElementById("editForm").addEventListener("submit", function (e) {
+            const priceInput = document.getElementById("Price");
+            if (priceInput && parseFloat(priceInput.value) <= 0) {
+                e.preventDefault();
+                alert("Price must be greater than zero.");
+                priceInput.focus();
+            }
+        });
+    </script>
+}

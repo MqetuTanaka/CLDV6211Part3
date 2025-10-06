@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{856FBEC0-5E27-4AD5-A7FF-F3D3C5C08F7C}|cloud1\\cloud1.csproj|c:\\users\\lab_services_student\\desktop\\cloud1\\cloud1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{856FBEC0-5E27-4AD5-A7FF-F3D3C5C08F7C}|cloud1\\cloud1.csproj|solutionrelative:cloud1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856FBEC0-5E27-4AD5-A7FF-F3D3C5C08F7C}|cloud1\\cloud1.csproj|c:\\users\\lab_services_student\\desktop\\cloud1\\cloud1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{856FBEC0-5E27-4AD5-A7FF-F3D3C5C08F7C}|cloud1\\cloud1.csproj|solutionrelative:cloud1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AD86F51-3147-4C3B-8296-FDD75F0CBB79}|FunctionApp1\\FunctionApp1.csproj|c:\\users\\lab_services_student\\desktop\\cloud1\\functionapp1\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8AD86F51-3147-4C3B-8296-FDD75F0CBB79}|FunctionApp1\\FunctionApp1.csproj|solutionrelative:functionapp1\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AD86F51-3147-4C3B-8296-FDD75F0CBB79}|FunctionApp1\\FunctionApp1.csproj|c:\\users\\lab_services_student\\desktop\\cloud1\\functionapp1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8AD86F51-3147-4C3B-8296-FDD75F0CBB79}|FunctionApp1\\FunctionApp1.csproj|solutionrelative:functionapp1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AD86F51-3147-4C3B-8296-FDD75F0CBB79}|FunctionApp1\\FunctionApp1.csproj|c:\\users\\lab_services_student\\desktop\\cloud1\\functionapp1\\functionapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8AD86F51-3147-4C3B-8296-FDD75F0CBB79}|FunctionApp1\\FunctionApp1.csproj|solutionrelative:functionapp1\\functionapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AD86F51-3147-4C3B-8296-FDD75F0CBB79}|FunctionApp1\\FunctionApp1.csproj|c:\\users\\lab_services_student\\desktop\\cloud1\\functionapp1\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8AD86F51-3147-4C3B-8296-FDD75F0CBB79}|FunctionApp1\\FunctionApp1.csproj|solutionrelative:functionapp1\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856FBEC0-5E27-4AD5-A7FF-F3D3C5C08F7C}|cloud1\\cloud1.csproj|c:\\users\\lab_services_student\\desktop\\cloud1\\cloud1\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{856FBEC0-5E27-4AD5-A7FF-F3D3C5C08F7C}|cloud1\\cloud1.csproj|solutionrelative:cloud1\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856FBEC0-5E27-4AD5-A7FF-F3D3C5C08F7C}|cloud1\\cloud1.csproj|c:\\users\\lab_services_student\\desktop\\cloud1\\cloud1\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{856FBEC0-5E27-4AD5-A7FF-F3D3C5C08F7C}|cloud1\\cloud1.csproj|solutionrelative:cloud1\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856FBEC0-5E27-4AD5-A7FF-F3D3C5C08F7C}|cloud1\\cloud1.csproj|c:\\users\\lab_services_student\\desktop\\cloud1\\cloud1\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{856FBEC0-5E27-4AD5-A7FF-F3D3C5C08F7C}|cloud1\\cloud1.csproj|solutionrelative:cloud1\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856FBEC0-5E27-4AD5-A7FF-F3D3C5C08F7C}|cloud1\\cloud1.csproj|c:\\users\\lab_services_student\\desktop\\cloud1\\cloud1\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{856FBEC0-5E27-4AD5-A7FF-F3D3C5C08F7C}|cloud1\\cloud1.csproj|solutionrelative:cloud1\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856FBEC0-5E27-4AD5-A7FF-F3D3C5C08F7C}|cloud1\\cloud1.csproj|c:\\users\\lab_services_student\\desktop\\cloud1\\cloud1\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{856FBEC0-5E27-4AD5-A7FF-F3D3C5C08F7C}|cloud1\\cloud1.csproj|solutionrelative:cloud1\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\FunctionApp1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "FunctionApp1\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\FunctionApp1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "FunctionApp1\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-06T20:37:07.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FunctionApp1",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\FunctionApp1\\FunctionApp1.csproj",
+              "RelativeDocumentMoniker": "FunctionApp1\\FunctionApp1.csproj",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\FunctionApp1\\FunctionApp1.csproj",
+              "RelativeToolTip": "FunctionApp1\\FunctionApp1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-06T20:33:28.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "local.settings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\FunctionApp1\\local.settings.json",
+              "RelativeDocumentMoniker": "FunctionApp1\\local.settings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\FunctionApp1\\local.settings.json",
+              "RelativeToolTip": "FunctionApp1\\local.settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-06T17:34:57.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\cloud1\\Program.cs",
+              "RelativeDocumentMoniker": "cloud1\\Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\cloud1\\Program.cs",
+              "RelativeToolTip": "cloud1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T17:28:40.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\cloud1\\appsettings.json",
+              "RelativeDocumentMoniker": "cloud1\\appsettings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\cloud1\\appsettings.json*",
+              "RelativeToolTip": "cloud1\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-06T17:22:31.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "serviceDependencies.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\FunctionApp1\\Properties\\serviceDependencies.json",
+              "RelativeDocumentMoniker": "FunctionApp1\\Properties\\serviceDependencies.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\FunctionApp1\\Properties\\serviceDependencies.json",
+              "RelativeToolTip": "FunctionApp1\\Properties\\serviceDependencies.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-06T20:37:10.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\cloud1\\Views\\Customer\\Edit.cshtml",
+              "RelativeDocumentMoniker": "cloud1\\Views\\Customer\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\cloud1\\Views\\Customer\\Edit.cshtml",
+              "RelativeToolTip": "cloud1\\Views\\Customer\\Edit.cshtml",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAQwHoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-06T16:57:34.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\cloud1\\Views\\Customer\\Create.cshtml",
+              "RelativeDocumentMoniker": "cloud1\\Views\\Customer\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\cloud1\\Views\\Customer\\Create.cshtml",
+              "RelativeToolTip": "cloud1\\Views\\Customer\\Create.cshtml",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAQwGwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-06T16:56:55.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\cloud1\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "cloud1\\Views\\Customer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\cloud1\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "cloud1\\Views\\Customer\\Index.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAQwG0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-06T16:56:27.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\cloud1\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "cloud1\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\cloud1\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "cloud1\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAYwNkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T16:55:57.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\cloud1\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "cloud1\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\cloud1\\cloud1\\Models\\Customer.cs",
+              "RelativeToolTip": "cloud1\\Models\\Customer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T16:52:16.36Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
